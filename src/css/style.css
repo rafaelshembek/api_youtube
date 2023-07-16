@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+
+/* variaveis goblais */
+:root{
+    --background-color: #e5e5e5;
+    --cor-title:#fff;
+    --font-default: "Roboto";
+}
+
+body{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start; */
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--cor-title);
+    font-family: var(--font-default);
+}
+div.title-youtube{
+    display: flex;
+    height: 100px;
+    background-color: #ffffff;
+}
+div.title-youtube h1{
+    margin-left: 2em;
+    color: #333;
+}
+section#container{
+    margin: 2em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 2em;
+}
+div.card-main{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 20px #cecece;
+    color: #333;
+}
+.divImg{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.divImg img{
+    width: 100%;
+}
+div.card-main .channelTitle, .title, .description{
+    margin-left: 12px;
+}
+div.card-main .channelTitle{
+    font-weight: 300;
+}
+div.card-main .title{
+    font-size: 10px;
+}
+div.card-main .description{
+    font-size: 9pt;
+}

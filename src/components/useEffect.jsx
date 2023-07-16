@@ -5,7 +5,7 @@ export default () => {
 
     const [dados, setDados] = useState([]);
 
-    const keyApi = "AIzaSyDIIVGIxJo6-Qj95GbrcCeIjmINfm-GhWA";
+    const keyApi = YOUR_KEY;
     const urlApi = `https://www.googleapis.com/youtube/v3/videos?key=${keyApi}&part=snippet&chart=mostPopular&regionCode=BR`;
 
     useEffect(() => {

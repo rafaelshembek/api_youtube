@@ -13,4 +13,4 @@ Estudante de Engenharia da computação, Apreendendo A Desenvolver jogos no Unit
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de rafaelsilvagomesreal@gmail.com
+Se você tiver algum ideia ou se quiser ajudarno desenvolvimento, por favor nos deixe saber por meio de rafaelsilvagomesreal@gmail.com
